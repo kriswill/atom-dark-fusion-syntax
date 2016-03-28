@@ -1,0 +1,28 @@
+.source.json {
+  .meta {
+    .json {
+      &.string.quoted.double {
+        color: @orange;
+        > .punctuation {
+          color: @red;
+        }
+      }
+    }
+    &.json.structure {
+      &.dictionary {
+        > .string.quoted.double {
+          color: @blue;
+          > .punctuation {
+            color: @dark-blue;
+          }
+        }
+        &.value > .string.quoted.double {
+          color: @orange;
+          > .punctuation {
+            color: @red;
+          }
+        }
+      }
+    }
+  }
+}

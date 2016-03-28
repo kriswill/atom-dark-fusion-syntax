@@ -1,3 +1,9 @@
+## 1.2.0
+* Color adjustments for darker and more muted background
+* Syntax color adjustments for better readability on darker background
+* Refactor base.less into editor.less, and syntax.less files
+* Add JSON syntax coloring for dictionary keys
+
 ## 1.1.0
 * Add Objective-C/Objective-C++ syntax
 

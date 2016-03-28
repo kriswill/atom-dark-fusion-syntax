@@ -1,4 +1,5 @@
 Copyright (c) 2015 <Maxim Shaydo (maxgraey@gmail.com)>
+Copyright (c) 2016 <Kris Williams (@kris_will)>
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
