@@ -1,7 +1,7 @@
 {
   "name": "atom-darker-fusion-syntax",
   "theme": "syntax",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "description": "Darker flat and color-balanced theme for maximum readability",
   "keywords": [
     "fusion",
@@ -13,12 +13,10 @@
     "orange",
     "balanced"
   ],
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/kriswill/atom-darker-fusion-syntax.git"
-  },
+  "repository": "https://github.com/kriswill/atom-darker-fusion-syntax.git",
   "license": "MIT",
+	"author": "@kris_will",
   "engines": {
-    "atom": ">=1.6.0 <2.0.0"
+    "atom": ">=1.14.1 <2.0.0"
   }
 }

@@ -1,24 +1,24 @@
-.source.json {
-  .meta {
-    .json {
-      &.string.quoted.double {
+.syntax--source.syntax--json {
+  .syntax--meta {
+    .syntax--json {
+      &.syntax--string.syntax--quoted.syntax--double {
         color: @orange;
-        > .punctuation {
+        > .syntax--punctuation {
           color: @red;
         }
       }
     }
-    &.json.structure {
-      &.dictionary {
-        > .string.quoted.double {
+    &.syntax--json.syntax--structure {
+      &.syntax--dictionary {
+        > .syntax--string.syntax--quoted.syntax--double {
           color: @blue;
-          > .punctuation {
+          > .syntax--punctuation {
             color: @dark-blue;
           }
         }
-        &.value > .string.quoted.double {
+        &.syntax--value > .syntax--string.syntax--quoted.syntax--double {
           color: @orange;
-          > .punctuation {
+          > .syntax--punctuation {
             color: @red;
           }
         }
